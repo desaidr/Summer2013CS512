@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="getAssignments"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configure Preferences" />
+
+    <Button
+        android:id="@+id/retriever"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:text="Retrieve assignments lists from server" 
+        android:onClick="retrieveFromServer"/>
+
+    <Button
+        android:id="@+id/assignments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Assignments" 
+        android:onClick="getAssignments"/>
+</LinearLayout>
